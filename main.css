@@ -42,11 +42,11 @@ a.menu {
 a.social:link, a.social:visited {
   background-color: black;
   color: white;
-  padding: 14px 30px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 100%;
+  font-size: 70%;
 }
 
 a.social:hover, a.social:active {
@@ -79,7 +79,7 @@ div.footer {
   bottom:0;
   width: 100%;
   background-color: black;
-  max-height: 50px;
+  min-height: 40px;
 }
 
 div.gallery {
