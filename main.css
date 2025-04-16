@@ -15,7 +15,8 @@ h1 {
 
 h2 {
   font-size: 300%;
-  text-align: center;
+  text-align: right;
+  padding: 14px 25px;
 }
 
 h3 {
@@ -97,7 +98,7 @@ word-wrap: normal;
   background-size: cover;
   background-color: white;
   color: white;
-  padding: 60px;
+  padding: 40px;
   font-size: 30px;
   border: none;
   cursor: pointer;
