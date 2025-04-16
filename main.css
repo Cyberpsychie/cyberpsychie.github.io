@@ -10,13 +10,13 @@ body, A, h3, p {
 h1 {
   font-size: 400%;
   text-align: right;
-  padding: 14px 25px;
+  padding: 14px 15px;
 }
 
 h2 {
   font-size: 300%;
   text-align: right;
-  padding: 14px 25px;
+  padding: 14px 15px;
 }
 
 h3 {
@@ -42,7 +42,7 @@ a.menu {
 a.social:link, a.social:visited {
   background-color: black;
   color: white;
-  padding: 14px 50px;
+  padding: 14px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -61,6 +61,12 @@ img {
 	width:250px;
 	height:250px;
 }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+}
 	
 div.intro {
 	width: 800px; 
@@ -71,11 +77,10 @@ div.intro {
 }
 
 div.footer {
-	position:absolute;
   bottom:0;
-  right:0;
   width: 100%;
   background-color: black;
+  max-height: 50px;
 }
 
 div.gallery {
