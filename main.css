@@ -29,19 +29,14 @@ p {
   text-align: center;
 }
 
-a.menu:link, a.menu:visited {
+a.menu {
   background-color: white;
   color: black;
-  padding: 14px 15px;
-  text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 150%;
+  font-size: 300%;
+  text-align: center;
 }
 
-a.menu:hover, a.menu:active {
-  color: gray;
-}
 
 a.social:link, a.social:visited {
   background-color: white;
@@ -66,11 +61,6 @@ img {
 	height:300px;
 }
 	
-div.header {
-	position:fixed;
-  top:0;
-}
-
 div.intro {
 	width: 800px; 
 	word-wrap: normal;
@@ -94,9 +84,53 @@ div.gallery {
 }
 
 div.policy {
-	width: 500px;
+	width: 700px;
 word-wrap: normal;	
 	max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
+
+.dropbtn {
+  background-image: url(images/menu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  color: white;
+  padding: 60px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: gray;
+}
+
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  top: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
