@@ -8,24 +8,24 @@ body, A, h3, p {
 }
 
 h1 {
-  font-size: 500%;
+  font-size: 400%;
   text-align: right;
   padding: 14px 25px;
 }
 
 h2 {
-  font-size: 400%;
+  font-size: 300%;
   text-align: center;
 }
 
 h3 {
-  font-size: 300%;
+  font-size: 200%;
   text-align: center;
 }
 
 
 p {
-	font-size: 300%;
+	font-size: 200%;
   text-align: center;
 }
 
@@ -33,7 +33,7 @@ a.menu {
   background-color: white;
   color: black;
   display: inline-block;
-  font-size: 300%;
+  font-size: 200%;
   text-align: center;
 }
 
@@ -45,7 +45,7 @@ a.social:link, a.social:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 a.social:hover, a.social:active {
