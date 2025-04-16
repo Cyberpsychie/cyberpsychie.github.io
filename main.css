@@ -1,0 +1,102 @@
+body, h2, h1{
+  font-family: "Imperial Script", sans-serif;
+  font-weight:100;
+}
+
+body, A, h3, p {
+  font-family: "Source Serif 4", sans-serif;
+}
+
+h1 {
+  font-size: 500%;
+  text-align: right;
+  padding: 14px 25px;
+}
+
+h2 {
+  font-size: 400%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 150%;
+  text-align: center;
+}
+
+
+p {
+	font-size: 150%;
+  text-align: center;
+}
+
+a.menu:link, a.menu:visited {
+  background-color: white;
+  color: black;
+  padding: 14px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 150%;
+}
+
+a.menu:hover, a.menu:active {
+  color: gray;
+}
+
+a.social:link, a.social:visited {
+  background-color: white;
+  color: black;
+  padding: 14px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 150%;
+}
+
+a.social:hover, a.social:active {
+  color: gray;
+}
+
+hr {
+	border-width: 200%;
+}
+
+img {
+	width:300px;
+	height:300px;
+}
+	
+div.header {
+	position:fixed;
+  top:0;
+}
+
+div.intro {
+	width: 500px; 
+	word-wrap: normal;
+	max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.footer {
+	position:fixed;
+  bottom:0;
+  background-color: black;
+  right:0;
+}
+
+div.gallery {
+	width: 1000px; 
+	max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.policy {
+	width: 500px;
+word-wrap: normal;	
+	max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
