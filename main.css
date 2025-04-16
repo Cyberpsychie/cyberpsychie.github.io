@@ -58,15 +58,15 @@ hr {
 }
 
 img {
-	width:250px;
-	height:250px;
+	width: 49.5%;
+	height: auto;
 }
 
 body {
   display: flex;
   flex-direction: column;
 }
-	
+
 div.intro {
 	width: 800px; 
 	word-wrap: normal;
@@ -83,7 +83,7 @@ div.footer {
 }
 
 div.gallery {
-	width: 800px; 
+
 	max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
