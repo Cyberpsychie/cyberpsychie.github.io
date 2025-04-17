@@ -10,7 +10,7 @@ body, A, h3, p, h4 {
 h1 {
   font-size: 450%;
   text-align: right;
-  padding: 14px 15px;
+  padding: 0px 15px;
 }
 
 h2 {
@@ -74,11 +74,17 @@ body {
 }
 
 div.intro {
-	width: 650px; 
+	width: 400px;
 	word-wrap: normal;
 	max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+div.header {
+ top:-60;
+ right: 0;
+ position: relative;
 }
 
 div.footer {
@@ -105,16 +111,25 @@ word-wrap: normal;
   margin-right: auto;
 }
 
+div.rectangle {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  visibility: hidden;
+}
+
 .dropbtn {
   background-image: url(images/menu.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
   color: white;
-  padding: 30px;
+  padding: 25px;
   font-size: 30px;
   border: none;
   cursor: pointer;
+  z-index: 2;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -132,7 +147,6 @@ word-wrap: normal;
   position: absolute;
   background-color: white;
   min-width: 100vw;
-  min-height: 100dvh;
   overflow: auto;
   z-index: 1;
 }
