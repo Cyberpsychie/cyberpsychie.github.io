@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-  font-size: 100%;
+  font-size: 150%;
   text-align: center;
 }
 
@@ -64,7 +64,7 @@ hr {
 }
 
 img {
-	width: 49.5%;
+	width: 40%;
 	height: auto;
 }
 
@@ -132,7 +132,7 @@ word-wrap: normal;
   position: absolute;
   background-color: white;
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 100dvh;
   overflow: auto;
   z-index: 1;
 }
