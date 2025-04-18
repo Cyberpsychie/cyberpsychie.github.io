@@ -10,13 +10,15 @@ body, A, h3, p, h4 {
 h1 {
   font-size: 450%;
   text-align: right;
-  padding: 0px 15px;
+  padding: 10px 15px;
+   margin: 0;
 }
 
 h2 {
   font-size: 350%;
   text-align: right;
-  padding: 14px 15px;
+  padding: 10px 15px;
+  margin: 0;
 }
 
 h3 {
@@ -41,14 +43,14 @@ a.menu {
   color: black;
   display: inline-block;
   font-size: 200%;
-  text-align: center;
+  text-align: left;
 }
 
 
 a.social:link, a.social:visited {
   background-color: black;
   color: white;
-  padding: 10px 30px;
+  padding: 5px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -59,7 +61,7 @@ a.social:hover, a.social:active {
   color: gray;
 }
 
-hr {
+hr { 
 	border-width: 200%;
 }
 
@@ -71,6 +73,7 @@ img {
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 div.intro {
@@ -81,19 +84,28 @@ div.intro {
 }
 
 div.header {
- top:-60;
+ top:0;
  right: 0;
  position: relative;
+ margin: 0;
+}
+
+.bottom {
+  display: inline-block;
+  bottom:0;
+  background-color: black;
+  height: 60px;
+  width: 100%;
 }
 
 div.footer {
-  bottom:0;
-  background-color: black;
-  min-height: 60px;
-  min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  bottom:0;
+  background-color: black;
+  height: 40px;
+  width: 100%;
 }
 
 div.gallery {
@@ -120,11 +132,11 @@ div.rectangle {
 .container {
   display: inline-block;
   cursor: pointer;
-  margin: 6px 0px;
+  margin: 20px 5px;
 }
 
 .bar1, .bar2, .bar3 {
-  width: 35px;
+  width: 30px;
   height: 2px;
   background-color: black;
   margin: 6px 10px;
@@ -144,7 +156,6 @@ div.rectangle {
 .dropdown {
   position: absolute;
   display: inline-block;
-  top: 0;
 }
 
 .dropdown-content {
@@ -154,6 +165,7 @@ div.rectangle {
   min-width: 100vw;
   overflow: auto;
   z-index: 1;
+  top: 500%;
 }
 
 .dropdown-content a {
