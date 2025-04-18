@@ -165,7 +165,7 @@ div.rectangle {
   min-width: 100vw;
   overflow: auto;
   z-index: 1;
-  top: 500%;
+  top: 200%;
 }
 
 .dropdown-content a {
