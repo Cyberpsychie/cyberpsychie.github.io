@@ -55,6 +55,7 @@ a.social:link, a.social:visited {
   text-decoration: none;
   display: inline-block;
   font-size: 85%;
+  text-decoration: underline;
 }
 
 a.social:hover, a.social:active {
@@ -105,6 +106,14 @@ div.footer {
   bottom:0;
   background-color: black;
   height: 40px;
+  width: 100%;
+}
+
+.morebottom {
+  display: inline-block;
+  bottom:0;
+  background-color: black;
+  height: 20px;
   width: 100%;
 }
 
