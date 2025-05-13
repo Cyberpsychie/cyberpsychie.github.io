@@ -7,6 +7,13 @@ body, A, h3, p, h4 {
   font-family: "Source Serif 4", sans-serif;
 }
 
+body {
+	background-image: url(https://i.pinimg.com/736x/f2/05/fd/f205fdf8cc685598c51ad75066679329.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
 h1 {
   font-size: 450%;
   text-align: right;
@@ -24,6 +31,7 @@ h2 {
 h3 {
   font-size: 150%;
   text-align: center;
+  margin: 0;
 }
 
 h4 {
