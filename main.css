@@ -15,10 +15,11 @@ body {
 }
 
 h1 {
+	color: #A94064;
   font-size: 450%;
   text-align: right;
-  padding: 10px 15px;
-   margin: 0;
+  padding: 10px 30px;
+  margin: 0;
 }
 
 h2 {
@@ -29,7 +30,7 @@ h2 {
 }
 
 h3 {
-  font-size: 150%;
+  font-size: 135%;
   text-align: center;
   margin: 0;
 }
@@ -56,7 +57,7 @@ a.menu {
 
 
 a.social:link, a.social:visited {
-  background-color: black;
+  background-color: #A94064;
   color: white;
   padding: 5px 40px;
   text-align: center;
@@ -102,7 +103,7 @@ div.header {
 .bottom {
   display: inline-block;
   bottom:0;
-  background-color: black;
+  background-color: #A94064;
   height: 60px;
   width: 100%;
 }
@@ -112,7 +113,7 @@ div.footer {
   justify-content: center;
   align-items: center;
   bottom:0;
-  background-color: black;
+  background-color: #A94064;
   height: 40px;
   width: 100%;
 }
@@ -120,7 +121,7 @@ div.footer {
 .morebottom {
   display: inline-block;
   bottom:0;
-  background-color: black;
+  background-color: #A94064;
   height: 20px;
   width: 100%;
 }
