@@ -67,7 +67,7 @@ hr {
 }
 
 img {
-	width: 49%;
+	width: 48%;
 	height: auto;
 }
 
@@ -119,7 +119,7 @@ div.footer {
 
 div.gallery {
 	max-width: fit-content;
-  margin-left: auto;
+  margin-left: 5px;
   margin-right: auto;
 }
 
