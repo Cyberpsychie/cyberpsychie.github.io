@@ -69,7 +69,7 @@ a.social:link, a.social:visited {
 }
 
 a.social:hover, a.social:active {
-  color: gray;
+  color: black;
 }
 
 hr { 
@@ -82,6 +82,8 @@ hr {
 img {
 	width: 48%;
 	height: auto;
+	margin-right: 5px;
+	margin-bottom: 5px;
 }
 
 body {
@@ -132,7 +134,7 @@ div.footer {
 
 div.gallery {
 	max-width: fit-content;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-right: auto;
 }
 
@@ -198,7 +200,7 @@ div.rectangle {
 }
 
 .dropdown a:hover {
-	background-color: #ddd;
+	background-color: rgba(169,64,100,0.2);
 	}
 
 .show {display: block;}
