@@ -73,7 +73,9 @@ a.social:hover, a.social:active {
 }
 
 hr { 
+	width: 100%;
 	border-width: 200%;
+	border-color: #A94064;
 }
 
 img {
@@ -135,7 +137,7 @@ div.gallery {
 
 div.policy {
 word-wrap: normal;	
-	max-width: 80%;
+	max-width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
