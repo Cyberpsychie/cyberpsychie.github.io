@@ -73,9 +73,10 @@ a.social:hover, a.social:active {
 }
 
 hr { 
-	width: 100%;
-	border-width: 200%;
-	border-color: #A94064;
+	width: 70%;
+	border: none;
+    height: 2px;
+	background: rgba(169,64,100,0.4);
 }
 
 img {
