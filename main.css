@@ -40,6 +40,9 @@ h4 {
   font-size: 90%;
   text-align: center;
   color: white;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 
@@ -120,7 +123,7 @@ div.footer {
   align-items: center;
   bottom:0;
   background-color: #A94064;
-  height: 40px;
+  height: 30px;
   width: 100%;
 }
 
