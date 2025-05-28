@@ -83,16 +83,16 @@ hr {
 }
 
 img {
-	width: 40%;
+	width: 48%;
 	height: auto;
-	margin-right: 10px;
+	margin-right: 5px;
 	margin-bottom: 5px;
 }
 
 img.commission {
-	width: 48%;
+	width: 40%;
 	height: auto;
-	margin-right: 5px;
+	margin-right: 10px;
 	margin-bottom: 10px;
 }
 
