@@ -90,7 +90,7 @@ img {
 }
 
 img.commission {
-	width: 40%;
+	width: 45%;
 	height: auto;
 	margin-right: 10px;
 	margin-bottom: 10px;
@@ -145,6 +145,12 @@ div.footer {
 div.gallery {
 	max-width: fit-content;
   margin-left: 7px;
+  margin-right: auto;
+}
+
+div.gallerycomm {
+	max-width: fit-content;
+  margin-left: 30px;
   margin-right: auto;
 }
 
