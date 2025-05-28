@@ -89,6 +89,13 @@ img {
 	margin-bottom: 5px;
 }
 
+img.commission {
+	width: 40%;
+	height: auto;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
 body {
   display: flex;
   flex-direction: column;
