@@ -8,7 +8,7 @@ body, A, h3, p, h4 {
 }
 
 body {
-	background-image: url();
+	background-image: url(images/background.jpg);
 	/*images/background.jpg*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
