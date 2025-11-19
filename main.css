@@ -17,7 +17,7 @@ body {
 
 h1 {
 	color: #A94064;
-  font-size: 450%;
+  font-size: clamp(450%, 9vw, 150px);
   text-align: right;
   padding: 10px 30px;
   margin: 0;
@@ -25,14 +25,14 @@ h1 {
 
 h2 {
 	color: #A94064;
-  font-size: 350%;
+  font-size: clamp(350%, 9vw, 100px);
   text-align: right;
   padding: 10px 15px;
   margin: 0;
 }
 
 h3 {
-  font-size: 120%;
+  font-size: clamp(120%, 3vw, 40px);
   text-align: center;
   margin: 0;
 }
@@ -48,7 +48,12 @@ h4 {
 
 
 p {
-	font-size: 100%;
+	font-size: clamp(100%, 3vw, 32px);
+  text-align: left;
+}
+
+li {
+	font-size: clamp(100%, 3vw, 32px);
   text-align: left;
 }
 
@@ -179,7 +184,7 @@ div.rectangle {
 .bar1, .bar2, .bar3 {
   width: 30px;
   height: 2px;
-  background-color: #A94064;;
+  background-color: #A94064;
   margin: 6px 10px;
   transition: 0.4s;
 }
