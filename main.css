@@ -38,7 +38,7 @@ h3 {
 }
 
 h4 {
-  font-size: 90%;
+  font-size: clamp(110%, 3vw, 40px);
   text-align: center;
   color: white;
   margin: 0;
@@ -73,7 +73,7 @@ a.social:link, a.social:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 80%;
+  font-size: clamp(80%, 3vw, 25px);
   text-decoration: underline;
 }
 
@@ -90,6 +90,7 @@ hr {
 
 img {
 	width: 48%;
+	max-width: 600px;
 	height: auto;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -109,7 +110,8 @@ body {
 }
 
 div.intro {
-	max-width: 80%;
+	width: 80%;
+	max-width: 1200px;
 	word-wrap: normal;
   margin-left: auto;
   margin-right: auto;
@@ -126,7 +128,7 @@ div.header {
   display: inline-block;
   bottom:0;
   background-color: #A94064;
-  height: 60px;
+  height: 100px;
   width: 100%;
 }
 
@@ -136,7 +138,7 @@ div.footer {
   align-items: center;
   bottom:0;
   background-color: #A94064;
-  height: 30px;
+  height: clamp(30px, 3vw, 60px);
   width: 100%;
 }
 
@@ -162,7 +164,8 @@ div.gallerycomm {
 
 div.policy {
 word-wrap: normal;	
-	max-width: 85%;
+	width: 85%;
+	max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
