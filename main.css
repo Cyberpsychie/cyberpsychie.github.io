@@ -48,12 +48,12 @@ h4 {
 
 
 p {
-	font-size: clamp(100%, 3vw, 32px);
+	font-size: clamp(100%, 3vw, 25px);
   text-align: left;
 }
 
 li {
-	font-size: clamp(100%, 3vw, 32px);
+	font-size: clamp(100%, 3vw, 25px);
   text-align: left;
 }
 
@@ -111,7 +111,7 @@ body {
 
 div.intro {
 	width: 80%;
-	max-width: 1200px;
+	max-width: 1000px;
 	word-wrap: normal;
   margin-left: auto;
   margin-right: auto;
