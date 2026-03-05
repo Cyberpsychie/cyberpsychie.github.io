@@ -93,12 +93,19 @@ img {
 	width: 48%;
 	max-width: 600px;
 	height: auto;
+    user-select: none;
+    -moz-user-select: none;
+	-khtml-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+	-webkit-touch-callout: none;
+    -ms-user-select: none;
+	/*margin-bottom: 5px;*/
 }
 
 img.commission {
 	width: 46%;
 	height: auto;
-	margin-right: 10px;
 	margin-bottom: 10px;
 }
 
@@ -237,3 +244,8 @@ div.rectangle {
 
 .show {display: block;}
 
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
