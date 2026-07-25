@@ -115,6 +115,14 @@ img {
 	/*margin-bottom: 5px;*/
 }
 
+img.location {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+	display: flex;
+	margin: auto;
+}
+
 img.commission {
 	width: 46%;
 	height: auto;
