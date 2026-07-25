@@ -89,6 +89,15 @@ a.social:hover, a.social:active {
   color: black;
 }
 
+a.schedule:link, a.schedule:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+a.schedule:hover, a.schedule:active {
+  color: #A94064;
+}
+
 hr { 
 	width: 70%;
 	border: none;
