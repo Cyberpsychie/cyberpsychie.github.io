@@ -90,12 +90,8 @@ a.social:hover, a.social:active {
 }
 
 a.schedule:link, a.schedule:visited {
-  color: black;
-  text-decoration: underline;
-}
-
-a.schedule:hover, a.schedule:active {
   color: #A94064;
+  text-decoration: underline;
 }
 
 hr { 
