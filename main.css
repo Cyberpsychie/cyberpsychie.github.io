@@ -163,6 +163,20 @@ img.commission {
 	margin-bottom: 10px;
 }
 
+.gallery-container {
+    column-count: 2;
+    column-gap: 5px; 
+    max-width: 200000px;
+    margin: auto;
+}
+
+img.main {
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 2px;
+}
+
 body {
   display: flex;
   flex-direction: column;
